@@ -133,7 +133,7 @@ public final class MainActivity extends Activity implements CraftyBle.Listener {
     private Button button(String text, boolean primary) {
         Button b = new Button(this);
         b.setText(text);
-        b.setTextAllCaps(false);
+        b.setAllCaps(false);
         b.setTextSize(14);
         b.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
         b.setTextColor(primary ? Color.WHITE : INK);
